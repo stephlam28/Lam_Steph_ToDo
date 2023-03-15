@@ -83,3 +83,22 @@ ul li {
 #done li:nth-child(odd) {
     background-color: rgba(0,255,0,0.5);
 }
+
+/* responsive code */
+article {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+main {
+    margin: 0 12px;
+}
+
+@media(min-width:960px) {
+    article {
+        width: 25%;
+        margin: 10px 12px;
+    }
+
+    main {margin: 0;}
+} 
